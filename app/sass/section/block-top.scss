@@ -1,0 +1,26 @@
+.block-top {
+  @extend %clearfix;
+
+  height: 50px;
+}
+
+.list-prices {
+  width: 200px;
+  float: left;
+  font-size: 16px;
+}
+
+.basket {
+  text-align: right;
+  width: 100px;
+  float: right;
+}
+
+.basket__link {
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  &:hover {
+    color: #2a5885;
+  }
+}

@@ -1,0 +1,38 @@
+.header {
+  @extend %clearfix;
+  @include box-shadow(1px 1px 10px black);
+
+  margin-bottom: 40px;
+}
+
+.logo {
+  float: left;
+}
+
+.login {
+  width: 300px;
+  float: right;
+
+  font-size: 25px;
+
+  margin-top: 45px;
+}
+
+.login__title {
+  @include inline-block(middle);
+  position: relative;
+
+  a:hover {
+    color: #2a5885;
+  }
+}
+
+//.entrance::after {
+//  content: "";
+//  position: absolute;
+//  width: 3px;
+//  height: 100%;
+//  margin-left: 4px;
+//
+//  background: black;
+//}

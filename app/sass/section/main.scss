@@ -1,0 +1,16 @@
+.main {
+  @extend %clearfix;
+}
+
+.aside {
+  width: 30%;
+  float: left;
+
+  margin-right: 5%;
+}
+
+.block-products {
+  float: right;
+
+  width: 65%;
+}

@@ -1,0 +1,28 @@
+@import "http://webfonts.ru/import/firasans.css";
+/*
+	Fira Sans, 100, 100 italic, 200, 200 italic, 300, 300 italic, 400, 400 italic, 500, 500 italic, 600, 600 italic, 700, 700 italic
+*/
+
+// adjustment variables
+$container-width: 940px;
+$footer-height: 150px;
+$body-font : 'Fira Sans', Helvetica, serif;
+//$body-background: #f6f6f6;
+
+
+// layout
+@import "_misc/mixins";
+@import "_misc/adjustment";
+@import "_misc/normalize";
+@import "_misc/font-awesome";
+
+// style
+@import "section/header";
+@import "section/main";
+@import "section/menu";
+@import "section/block-top";
+@import "section/products-list";
+@import "section/footer";
+
+@import "section/bag1";
+@import "section/basket";

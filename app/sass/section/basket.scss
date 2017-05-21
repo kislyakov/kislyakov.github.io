@@ -1,0 +1,46 @@
+.title_basket {
+  font-size: 20px;
+}
+
+.basket__link {
+  @include inline-block(middle);
+
+  &:hover {
+    color: black;
+  }
+}
+
+.basket__photo {
+  width: 320px;
+  height: 240px;
+
+  @include inline-block(middle);
+}
+
+.basket__pik {
+  width: 100%;
+  height: 100%;
+
+  margin-left: 35px;
+}
+
+.info {
+  @include inline-block(middle);
+
+  font-size: 20px;
+
+  li {
+    margin-top: 35px;
+  }
+}
+
+.basket__button {
+  width: 207px;
+  text-align: right;
+  @include inline-block(middle);
+
+  button {
+    border: 0px solid transparent;
+  }
+}
+

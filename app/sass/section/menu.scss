@@ -1,0 +1,27 @@
+.aside {
+  margin-top: 50px;
+}
+
+.menu__item {
+  color: black;
+  font-size: 21px;
+
+  margin-bottom: 15px;
+
+  a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    border-right: 5px solid transparent;
+  }
+
+  a:hover {
+    color: #2a5885;
+    border-right-color: #2a5885;
+  }
+
+  .link__active {
+    border-right-color: #2a5885;
+  }
+
+}

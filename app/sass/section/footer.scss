@@ -1,0 +1,33 @@
+.footer {
+  @extend %clearfix;
+}
+
+.footer__description {
+  width: 150px;
+  margin-top: 70px;
+  margin-left: 146px;
+  float: left;
+}
+
+.Social-network {
+  width: 183px;
+  float: right;
+
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.social-item {
+  @include inline-block(middle);
+  margin-left: 20px;
+
+}
+
+.social-link {
+  color: black;
+  font-size: 40px;
+
+  &:hover {
+    color: #2a5885;
+  }
+}
